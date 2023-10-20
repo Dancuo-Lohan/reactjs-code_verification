@@ -1,0 +1,87 @@
+body, html {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    background-color: #fffaf7;
+}
+
+div#root {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    color: black;
+    text-transform: uppercase;
+    font-size: 28px;
+    text-align: center;
+}
+
+section {
+    position: relative;
+    background-color: #fffaf7;
+    width: 60%;
+    height: 90%;
+    margin: auto;
+}
+
+.code_input {
+    width: 100%;
+    height: 72px;
+    background: #fff;
+    border-radius: 30px;
+    border: none;
+    font-size: 40px;
+    color: #eb651c;
+    font-weight: bold;
+    padding: 5px 20px;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+
+    text-transform: uppercase;
+}
+
+.button-container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;  
+}
+
+.button-container button {
+    height: 70px;
+    font-size: 24px;
+    background-color: #eb651c !important;
+    border-radius: 44px !important;
+    border: none !important;
+    color: white;
+    
+    flex: 0 0 calc(10% - 20px); /* 11.11% accounts for 9 items per row with some spacing */
+    margin: 10px; /* Add spacing between items */
+    box-sizing: border-box; /* Include margin in the width calculation */
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+
+    text-transform: uppercase;
+}
+
+.main_button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    margin-top: 20px;
+}
+
+.main_button-container button { 
+    border:solid 2px #eb651c !important;
+    background-color: #fff;
+    color: #eb651c;
+    width: 25%;
+    border-radius: 44px;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 0 20px;
+}
