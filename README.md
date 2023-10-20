@@ -11,7 +11,7 @@ git clone https://github.com/Dancuo-Lohan/reactjs-code_verification.git
 
 2. Accédez au répertoire du projet :
 ```bash
-cd reactjs-draw
+cd reactjs-code_verification
 ```
 
 3. Installez les dépendances nécessaires :
